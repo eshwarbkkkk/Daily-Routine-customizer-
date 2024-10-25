@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or any global CSS file */
+.custom-radio {
+  width: 1.5rem;
+  height: 1.5rem;
+  --tw-ring-color: #e4d7f6;
+}
+
+.custom-radio:checked {
+  background-color: #e4d7f6;
+  border-color: #e4d7f6;
+}
